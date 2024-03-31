@@ -1,0 +1,129 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 98%;
+    background-color: bisque;
+    position: relative;
+}
+
+.center {
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
+}
+
+.container {
+    margin: 0 auto;
+    width: 30%;
+    height: 60%;
+}
+
+.score {
+    margin: 0 auto;
+    margin-top: 2%;
+    width: 80%;
+    height: 100px;
+    border: #000 solid 1px;
+    box-shadow: 3px 3px #999999;
+}
+
+#title {
+    font-size: 26px;
+}
+
+#prize {
+    font-size: 50px;
+}
+
+.play {
+    margin: 0 auto;
+    margin-top: 10%;
+    width: 80px;
+    height: 80px;
+}
+
+#play-button {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #f62f2f;
+}
+
+#play-button:hover {
+    background-color: #f62f2fde;
+}
+
+.answer {
+    margin: 0 auto;
+    margin-top: 10%;
+    width: 70%;
+    height: 50px;
+    box-shadow: 10px 8px #999999;
+}
+
+#text-box {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.select {
+    margin: 0 auto;
+    margin-top: 8%;
+    width: 50%;
+    height: 50px;
+    display: flex;
+}
+
+.options {
+    width: 50%;
+}
+
+#help {
+    display: none;
+    float: left;
+}
+
+#submit {
+    float: right;
+}
+
+.dialogue {
+    margin: 0 auto;
+    width: 80%;
+    height: 35%;
+    display: flex;
+}
+
+.figure {
+    margin-left: 10%;
+    width: 200px;
+    height: 100%;
+    border: #000 solid 1px;
+    background-image: url('./Figures/host.jpg');
+    background-size: cover;
+}
+
+.lines {
+    margin: 0 auto;
+    margin-top: 5%;
+    width: 65%;
+    height: 50%;
+}
+
+.lines p {
+    font-size: 18px;
+}
+
+#name {
+    width: 30%;
+    height: 40px;
+    font-size: 18px;
+}
+
+#enter {
+    width: 60px;
+    height: 40px;
+}

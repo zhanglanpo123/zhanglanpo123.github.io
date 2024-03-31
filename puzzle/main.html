@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>开门大吉</title>
+    <!-- 网页名称 -->
+    <link rel="stylesheet" href="./main.css">
+    <!-- css识别文件 -->
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="score" id="score">
+            <p class="center" id="title">游戏奖金</p>
+            <p class="center" id="prize">0</p>
+        </div>
+        <div class="play">
+            <button id="play-button" onclick="playSong()" disabled></button>
+        </div>
+        <div class="answer" id="answer">
+            <input id="text-box" type="text" placeholder="请输入歌曲名">
+        </div>
+        <div class="select" id="select">
+            <button class="options" id="help" onclick="checkout()">见好就收</button>
+            <button class="options" id="submit" onclick="submitAnswer()" disabled>开门大吉！</button>
+        </div>
+    </div>
+    <div class="dialogue" id="dialogue">
+        <div class="figure" id="figure"></div>
+        <div class="lines">
+            <p id="line">让我们掌声有请这位选手，你叫什么名字？</p>
+            <input id="name" type="text" placeholder="请输入你的名字">
+            <button id="enter" onclick="submitDialogue(this)">确认</button>
+        </div>
+    </div>
+    <script type="text/javascript" src="./main.js"></script>
+</body>
+</html>
